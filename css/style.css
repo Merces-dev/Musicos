@@ -29,12 +29,7 @@ header img{
     width: 40px;
     padding: 0px 20px;
 }
-header .fa-bars{
-    color: black;
-    display: block;
-    font-size: 3em;
 
-}
 header .fa-bars{
     color: black;
     display: block;
@@ -66,12 +61,72 @@ header .container div{
     padding: 0.5em 0;
 
 }
+
+
+/* Começo Página Cadastro do Usuário */
+
+main{
+    background-color: #143F59;
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.descricao h1{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+}
+
+.descricao h2{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+
+}
+
+
+
+
+.perfil img{
+    width: 24%;
+    height: 90px;
+
+   
+}
+
+.configuracoes img{
+   width: 40px;
+   height:30px;
+   margin-bottom: 2em;
+}
+
+.configuracoes{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.opcoes{
+    background-color: #FFFBFE;
+    width: 100%;
+    height: 80px;
+}
+
+/*Fim Página de Cadastro de Usúario */
+
+
+
+
 footer{
     width: 100%;
     height: 100px;
     background-color: #133f58;
     display: flex;
     justify-content: center;
+    margin-top: 30em;
     
 }
 .containerf{
