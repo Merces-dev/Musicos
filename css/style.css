@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 hr{
-    border-color: black;
+    border-color: #cccfd1;
 }
 header{
     display: flex;
@@ -25,20 +25,14 @@ header{
     align-items: center;
     padding: 0px 10px;
 }
+header .fa-bars{
+    color: black;
+    display: block;
+    font-size: 3em;
+}
 header img{
     width: 40px;
     padding: 0px 20px;
-}
-header .fa-bars{
-    color: black;
-    display: block;
-    font-size: 3em;
-
-}
-header .fa-bars{
-    color: black;
-    display: block;
-    font-size: 3em;
 }
 header .container div{
     display: flex;
@@ -64,8 +58,52 @@ header .container div{
 #menu a{
     display: block;
     padding: 0.5em 0;
+}
+/* fim header */
+.filtros{
+    height: 100px;
+}
+main hr{
+    border-color: #cccfd1;
+}
+.prof{
+    background-color: white;
+    display: flex;
+    flex-direction: column  ;
+}
+.prof h2{
+    padding: 2em 0;
+    margin-left: 20px;
+    color: black;
+    text-transform: initial;
+    font-weight: lighter;
+}
+main div .prof_encontrado{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+main article{
+    width: 80%;
 
 }
+main article p{
+    border-radius: 10%;
+    border-color: #697076;
+    width: 95%;
+    height: 90%;
+    color: black;
+    text-transform: initial;
+}
+
+}
+.prof_encontrado div{
+    color: black;
+    background-color: black;
+}
+/* fim main */
 footer{
     width: 100%;
     height: 100px;
@@ -92,3 +130,4 @@ footer h4{
 footer img{
     width: 2.4em;
 }
+
