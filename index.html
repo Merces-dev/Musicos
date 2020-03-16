@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div>
+                <a href="#" onclick="botao_menu()">
+                    <img src="img/icons/bars-solid.svg" alt="menu">
+                </a>
+                <a href="index.html" title="Acessar a página inicial do site">
+                    <img src="img/logo/LogoMusiT.png" alt="logo_musit" class="logo">
+                </a>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html" title="Acessar Página inicial">Home</a></li>
+                    <li><a href="login.html" title="Acessar seção login">login</a></li>
+                    <li><a href="cadastrousuario.html" title="Acessar página de cadastro">cadastre-se</a></li>
+                    <li><a href="#" title="Acessar seção sobre">sobre</a></li>
+                    <li><a href="centralajuda.html" title="Acessar Central de Ajuda">central de ajuda</a></li>
+                    <li>
+                        <a href="#" title="realizar busca no site">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <hr>
+    <footer class="containerf">
+        <div>
+            <h3>Central de ajuda</h3>
+            <h4>Email: MusicTeach@gmail.com</h4>
+            <h4>Telefone: 6548-95862</h4>
+        </div>
+        <div>
+            <img src="img/redes_sociais/facebook.svg" alt="facebook">
+            <img src="img/redes_sociais/instagram.svg" alt="instagram">
+            <img src="img/redes_sociais/twitter.svg" alt="twitter">
+            <img src="img/redes_sociais/linkedin.svg" alt="linkedin">
+
+        </div>
+    </footer>
+    <script>
+        function botao_menu() {
+            var m = document.getElementById("menu");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+
+            } else {
+                m.style.display = "block";
+            }
+        }
+    </script>
 </body>
+
 </html>
