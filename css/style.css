@@ -12,6 +12,7 @@
 }
 hr{
     border-color: black;
+    margin-top: 0.5em;
 }
 header{
     display: flex;
@@ -62,7 +63,7 @@ header .container div{
 }
 
 
-/* Começo Página Cadastro do Usuário */
+/* Começo Perfil de Usuário */
 
 main{
     /* background-color: #143F59; */
@@ -71,6 +72,13 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+
+
+.descricao{
+    background-color:#133f58;
+    height: 180px;
 }
 
 
@@ -87,12 +95,9 @@ main{
 
 }
 
-
-
-
 .perfil img{
     width: 24%;
-    height: 90px;
+    height: 98px;
 
    
 }
@@ -111,10 +116,58 @@ main{
 .opcoes{
     background-color: #FFFBFE;
     width: 100%;
-    height: 80px;
+    height: 320px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
-/*Fim Página de Cadastro de Usúario */
+.op{
+    background-color: #133f58;
+    width: 75%;
+    margin: 0.8em;
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+.op a{
+    text-align: right;
+    margin-right: 0.4em;
+    margin-top: 0.2em;
+}
+
+.op img{
+    height: 20px;
+    justify-content: flex-end;
+}
+
+
+.op h3{
+    color: #FF5839;
+    font-weight: lighter;
+    justify-content: flex-start;
+}
+
+.opc{
+    background-color: #FF5839;
+    width: 75%;
+    margin: 0.8em;
+    border-radius: 0.8em;
+}
+
+.opc h3{
+    color:#133f58;
+}
+
+.icon{
+    height: 22px;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+/*Fim Perfil de Usúario */
+
+
 /* Página encontre professor */
 .filtros{
     height: 100px;
@@ -227,4 +280,8 @@ footer h4{
 }
 footer img{
     width: 2.4em;
+}
+
+@media(min-width:801px){
+    
 }
