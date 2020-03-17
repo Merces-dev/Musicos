@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
     text-decoration: none;
 }
 hr{
-    border-color: #cccfd1;
+    border-color: black;
 }
 header{
     display: flex;
@@ -19,20 +20,19 @@ header{
     background-color: #133f58;
 }
 .container{
-    width: 90%;
-    background-color: #133f58;
-    display: flex;
+       display: flex;
     align-items: center;
     padding: 0px 10px;
-}
-header .fa-bars{
-    color: black;
-    display: block;
-    font-size: 3em;
 }
 header img{
     width: 40px;
     padding: 0px 20px;
+}
+
+header .fa-bars{
+    color: black;
+    display: block;
+    font-size: 3em;
 }
 header .container div{
     display: flex;
@@ -58,8 +58,64 @@ header .container div{
 #menu a{
     display: block;
     padding: 0.5em 0;
+
 }
-/* fim header */
+
+
+/* Começo Página Cadastro do Usuário */
+
+main{
+    /* background-color: #143F59; */
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.descricao h1{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+}
+
+.descricao h2{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+
+}
+
+
+
+
+.perfil img{
+    width: 24%;
+    height: 90px;
+
+   
+}
+
+.configuracoes img{
+   width: 40px;
+   height:30px;
+   margin-bottom: 2em;
+}
+
+.configuracoes{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.opcoes{
+    background-color: #FFFBFE;
+    width: 100%;
+    height: 80px;
+}
+
+/*Fim Página de Cadastro de Usúario */
+/* Página encontre professor */
 .filtros{
     height: 100px;
 }
@@ -69,48 +125,90 @@ main hr{
 .prof{
     background-color: white;
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
 }
 .prof h2{
-    padding: 2em 0;
-    margin-left: 20px;
+    margin-left: 0.2em;
     color: black;
     text-transform: initial;
     font-weight: lighter;
 }
-main div .prof_encontrado{
-    background-color: blanchedalmond;
+.professores h2{
+    padding: 3em 0;
+    text-align: start;
+}
+.perfil_texto{
+    width: 60%;
+    height: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+}
+.perfil_texto img{
+    padding: 1em 0;
+}
+.valor_nacionalidade{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: -2em;
+  
+}
+main div .prof_encontrado{
+    align-items: center;
     border-radius: 10%;
 }
 main article{
-    width: 80%;
-
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+    
 }
 main article p{
-    border-radius: 10%;
-    border-color: #697076;
-    width: 95%;
+    width: 50%;
     height: 90%;
+    text-align: justify;
     color: black;
     text-transform: initial;
+    font-size: 0.6em;
+}
+main article h2{
+    font-size: 1em;
+}
+main article img{
+    width: 2.5em;
+}
+article {
+    display: flex;
+    margin: 1em;
+}
+.botao_vermais{
+    width: 200px;
+    height: 3em;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-}
-.prof_encontrado div{
-    color: black;
-    background-color: black;
-}
-/* fim main */
+/* Fim página encontre professor */
+
+
+
 footer{
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: #133f58;
     display: flex;
     justify-content: center;
-    
+    position: absolute;
+    bottom: 0;
+    margin: auto;
 }
 .containerf{
     display: flex;
@@ -130,4 +228,3 @@ footer h4{
 footer img{
     width: 2.4em;
 }
-

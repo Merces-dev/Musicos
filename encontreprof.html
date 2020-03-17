@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
+    <title>Encontre seu Professor</title>
 </head>
 
 <body>
@@ -26,18 +26,11 @@
                     <li><a href="cadastrousuario.html" title="Acessar página de cadastro">cadastre-se</a></li>
                     <li><a href="#" title="Acessar seção sobre">sobre</a></li>
                     <li><a href="centralajuda.html" title="Acessar Central de Ajuda">central de ajuda</a></li>
-                    <li>
-                        <a href="#" title="realizar busca no site">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <hr>
     <main>
-
         <div class="filtros">
         </div>
         <hr>
@@ -45,18 +38,86 @@
             <div class="Professores">
                 <h2>Professores Encontrados</h2>
             </div>
-            <article class="prof_encontrado">
-                <div>
-                    <img src="" alt="">
+            <article class=" prof_encontrado">
+                <div class="perfil_texto">
+                    <img src="img/icons/account.svg" alt="imagem de perfil">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
-                        porro,
-                        ullam id dicta? Neque natus totam dolorum recusandae at suscipit, odit itaque libero quam
-                        doloremque, voluptate ea alias.</p>
+                        porro</p>
+                </div>
+                <div  class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Valor: R$200,00</h2>
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
                 </div>
             </article>
+            <article class=" prof_encontrado">
+                <div class="perfil_texto">
+                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                        porro</p>
+                </div>
+                <div  class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Valor: R$200,00</h2>
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
+                </div>
+            </article>
+            <article class=" prof_encontrado">
+                <div class="perfil_texto">
+                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                        porro</p>
+                </div>
+                <div  class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Valor: R$200,00</h2>
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
+                </div>
+                
+            </article>
+            <nav id="vermais">
+            <article class=" prof_encontrado">
+                <div class="perfil_texto">
+                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                        porro</p>
+                </div>
+                <div  class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Valor: R$200,00</h2>
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
+                </div>
+                
+            </article>
+            <article class=" prof_encontrado">
+                <div class="perfil_texto">
+                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                        porro</p>
+                </div>
+                <div  class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Valor: R$200,00</h2>
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
+                </div>
+                
+            </article>
+            </nav>
+            <a href="#" onclick="botao_vermais()">
+                <div class="botao_vermais">
+                    <h2>Ver Mais</h2>
+                </div>
+            </a>
+            
         </div>
+
+
     </main>
-    <hr>
     <footer class="containerf">
         <div>
             <h3>Central de ajuda</h3>
@@ -74,6 +135,15 @@
     <script>
         function botao_menu() {
             var m = document.getElementById("menu");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+
+            } else {
+                m.style.display = "block";
+            }
+        }
+        function botao_vermais() {
+            var m = document.getElementById("vermais");
             if (m.style.display == "block") {
                 m.style.display = "none";
 
