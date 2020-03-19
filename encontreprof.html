@@ -5,29 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Encontre seu Professor</title>
+    <title>Central de Ajuda</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div>
-                <a href="#" onclick="botao_menu()">
-                    <img src="img/icons/bars-solid.svg" alt="menu">
-                </a>
-                <a href="index.html" title="Acessar a página inicial do site">
-                    <img src="img/logo/LogoMusiT.png" alt="logo_musit" class="logo">
-                </a>
+            <div >
+                <div>
+                    <a class="botao_menu" href="#" onclick="botao_menu()">
+                        <img src="img/icons/bars-solid.svg" alt="menu">
+                    </a>
+                    <a href="index.html" title="Acessar a página inicial do site">
+                        <img src="img/logo/LogoMusiT.png" alt="logo_musit" class="logo">
+                    </a>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html" title="Acessar Página inicial">Home</a></li>
+                        <li><a href="login.html" title="Acessar seção login">login</a></li>
+                        <li><a href="cadastrousuario.html" title="Acessar página de cadastro">cadastre-se</a></li>
+                        <li><a href="#" title="Acessar seção sobre">sobre</a></li>
+                        <li><a href="centralajuda.html" title="Acessar Central de Ajuda">central de ajuda</a></li>
+                        <li>
+                            <a href="#" title="realizar busca no site">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav id="menu">
-                <ul>
-                    <li><a href="index.html" title="Acessar Página inicial">Home</a></li>
-                    <li><a href="login.html" title="Acessar seção login">login</a></li>
-                    <li><a href="cadastrousuario.html" title="Acessar página de cadastro">cadastre-se</a></li>
-                    <li><a href="#" title="Acessar seção sobre">sobre</a></li>
-                    <li><a href="centralajuda.html" title="Acessar Central de Ajuda">central de ajuda</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
     <main>
@@ -38,82 +44,84 @@
             <div class="Professores">
                 <h2>Professores Encontrados</h2>
             </div>
-            <article class=" prof_encontrado">
+            <article class=" box prof_encontrado">
                 <div class="perfil_texto">
-                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <a href="perfilprof.html"><img src="img/icons/account.svg" alt="imagem de perfil"></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
                         porro</p>
                 </div>
-                <div  class="valor_nacionalidade">
+                <div class="valor_nacionalidade">
+                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                    <h2>Tipo: Violão</h2>
+                    <h2>Avaliação: 4,3</h2>
+                </div>
+            </article>
+            <article class=" box prof_encontrado">
+                <div class="perfil_texto">
+                    <a href="perfilprof.html"><img src="img/icons/account.svg" alt="imagem de perfil"></a>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                        porro</p>
+                </div>
+                <div class="valor_nacionalidade">
                     <img src="img/icons/brasil.svg" alt="bandeira do brasil">
                     <h2>Valor: R$200,00</h2>
                     <h2>Tipo: Violão</h2>
                     <h2>Avaliação: 4,3</h2>
                 </div>
             </article>
-            <article class=" prof_encontrado">
+            <article class=" box prof_encontrado">
                 <div class="perfil_texto">
-                    <img src="img/icons/account.svg" alt="imagem de perfil">
+                    <a href="perfilprof.html"><img src="img/icons/account.svg" alt="imagem de perfil"></a>
+
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
                         porro</p>
                 </div>
-                <div  class="valor_nacionalidade">
+                <div class="valor_nacionalidade">
                     <img src="img/icons/brasil.svg" alt="bandeira do brasil">
                     <h2>Valor: R$200,00</h2>
                     <h2>Tipo: Violão</h2>
                     <h2>Avaliação: 4,3</h2>
                 </div>
-            </article>
-            <article class=" prof_encontrado">
-                <div class="perfil_texto">
-                    <img src="img/icons/account.svg" alt="imagem de perfil">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
-                        porro</p>
-                </div>
-                <div  class="valor_nacionalidade">
-                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
-                    <h2>Valor: R$200,00</h2>
-                    <h2>Tipo: Violão</h2>
-                    <h2>Avaliação: 4,3</h2>
-                </div>
-                
+
             </article>
             <nav id="vermais">
-            <article class=" prof_encontrado">
-                <div class="perfil_texto">
-                    <img src="img/icons/account.svg" alt="imagem de perfil">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
-                        porro</p>
-                </div>
-                <div  class="valor_nacionalidade">
-                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
-                    <h2>Valor: R$200,00</h2>
-                    <h2>Tipo: Violão</h2>
-                    <h2>Avaliação: 4,3</h2>
-                </div>
-                
-            </article>
-            <article class=" prof_encontrado">
-                <div class="perfil_texto">
-                    <img src="img/icons/account.svg" alt="imagem de perfil">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
-                        porro</p>
-                </div>
-                <div  class="valor_nacionalidade">
-                    <img src="img/icons/brasil.svg" alt="bandeira do brasil">
-                    <h2>Valor: R$200,00</h2>
-                    <h2>Tipo: Violão</h2>
-                    <h2>Avaliação: 4,3</h2>
-                </div>
-                
-            </article>
+                <article class=" box prof_encontrado">
+                    <div class="perfil_texto">
+                        <a href="perfilprof.html"><img src="img/icons/account.svg" alt="imagem de perfil"></a>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                            porro</p>
+                    </div>
+                    <div class="valor_nacionalidade">
+                        <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                        <h2>Valor: R$200,00</h2>
+                        <h2>Tipo: Violão</h2>
+                        <h2>Avaliação: 4,3</h2>
+                    </div>
+
+                </article>
+                <article class="box  prof_encontrado">
+                    <div class="perfil_texto">
+                        <a href="perfilprof.html"><img src="img/icons/account.svg" alt="imagem de perfil"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo voluptatibus
+                            porro</p>
+                    </div>
+                    <div class="valor_nacionalidade">
+                        <img src="img/icons/brasil.svg" alt="bandeira do brasil">
+                        <h2>Valor: R$200,00</h2>
+                        <h2>Tipo: Violão</h2>
+                        <h2>Avaliação: 4,3</h2>
+                    </div>
+
+                </article>
             </nav>
             <a href="#" onclick="botao_vermais()">
                 <div class="botao_vermais">
                     <h2>Ver Mais</h2>
                 </div>
             </a>
-            
+
         </div>
 
 
@@ -133,7 +141,7 @@
         </div>
     </footer>
     <script>
-        function botao_menu() {
+          function botao_menu() {
             var m = document.getElementById("menu");
             if (m.style.display == "block") {
                 m.style.display = "none";
