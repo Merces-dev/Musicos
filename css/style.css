@@ -358,6 +358,7 @@ footer img{
     #menu{
         display: flex;
         flex-direction: row;
+        width: 100%
     }
     #menu ul{
         height: 50px;
@@ -435,7 +436,7 @@ footer img{
     #menu ul li a {
         font-size: 1.5em;
         margin-right: 10px;
-        padding: 2px 70px;
+        padding: 2px 65px;
         display: inline;
     }
     .container{
