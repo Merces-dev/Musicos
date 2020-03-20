@@ -774,7 +774,7 @@ footer img{
     #menu ul li a {
         font-size: 3em;
         margin-right: 10px;
-        padding: 2px 190px;
+        padding: 2px 170px;
         display: inline;
     }
     .prof_encontrado{
@@ -841,83 +841,100 @@ footer img{
         font-size: 1.3em;
     }
     .login_filho1{
-        font-size: 1.5em;
+        font-size: 3em;
     }
     .login_filho1 input{
-     width: 50%;
-    height: 4em;
+     width: 60%;
+    height: auto    ;
+    font-size: 0.7em;
+    margin-top: 1.6em;
 
     }
     .conectado_pai{
-        margin-top: 3em;
+        margin: 2em;
+        font-size: 3em;
     }
     .btngradient{
         font-size: 1.1em;
     }
+    .logarfilho button{
+        width: 60%;
+        height: auto;
+        font-size: 3em;
+        margin-top: auto;
+    }
 
     .logar_face h5{
-        font-size: 1.3em;
+        font-size: 2.6em;
         color: #143f59;
-        margin-top: 3em;
+        margin: 1em;
     }
     .registre-se h5{
-        margin-top: 4em;
-        font-size: 1.5em;
+        margin: 2em;
+        font-size: 2em;
     }
 /*fim pagina cadastro*/
 
 /* pagina pagamentos */
 .escolha_aula{
  width: 85%;
- height: 2.6em;
+ height: auto;
     
 }
 .escolha_aula h5{
-    font-size: 1.7em;
+    font-size: 3em;
+    margin-top: 5em;
+    height: auto;
 }
 .escolha_aula p{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .container_aulas{
  width: 85%;
-height: 9.0em;
+height: auto;
+
 }
 .container_aulas img{
-width: 12em;
-height: 6.6em;
-margin-top: 1.3em;
+width: 30em;
+height: 20em;
+margin: 1.3em;
 margin-left: 0.3em;
 }
 .disponiveis{
-    height: 2.8em;
+    height: auto;
 }
 .disponiveis h5{
-    font-size: 1.7em;
+    font-size: 3em;
 }
 .campo-calendario p{
-    font-size: 1.7em;
+    font-size: 2em;
+}
+.tudo{
+font-size: 2em;
 }
 .campo label{
-   font-size: 1.7em;
+   font-size: 2.7em;
 }
 .campo{
    margin-right: 10em;
+   align-items: center;
 }
 .campo select{
 width: 20em;
 height: 3.4em;
+margin-top: 5em;
 }
 .campo-calendario img{
-    max-width: 28%;
+    max-width: 15%;
 }
 .pagamento{
-height:2.6em;
-}
+height: auto;}
 .pagamento h5{
-   font-size: 1.7em;
+   font-size: 3em;
 }
 .pagamentofilho1{
-   width: 6em;
+   width: 90%;
+   margin-top: 5em;
 }
 .credito{
    font-size: 1.5em;
@@ -944,6 +961,7 @@ margin-top: 3em;
 }
 .botao_reserva button{
 width: 19em;
-height: 3.9em
+height: 3.9em;
+font-size: 3em;
 }
     }
