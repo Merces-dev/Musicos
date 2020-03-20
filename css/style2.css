@@ -1,0 +1,520 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+hr{
+    border-color: black;
+    margin-top: 0.5em;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #133f58;
+}
+.container{
+       display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+header img{
+    width: 40px;
+}
+
+header .fa-bars{
+    color: black;
+    display: block;
+    font-size: 3em;
+}
+header .container div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+}
+#menu{
+    position: absolute;
+    top: 5.5em;
+    width: 100%;
+    background-color: #133f58;
+    left: 0;
+    display: none;
+}
+#menu ul{
+    flex-direction: column;
+    margin-left: 1em;
+    display: flex;
+}
+#menu a{
+    display: block;
+    padding: 0.5em 0;
+
+}
+
+
+/* Começo Perfil de Usuário */
+
+main{
+    /* background-color: #143F59; */
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.descricao{
+    background-color:#133f58;
+    height: 180px;
+}
+
+
+.descricao h1{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+}
+
+.descricao h2{
+    color: #FF5839;
+    justify-content: center;
+    font-size:1em;
+
+}
+
+.perfil img{
+    width: 24%;
+    height: 98px;
+
+   
+}
+
+.configuracoes img{
+   width: 40px;
+   height:30px;
+   margin-bottom: 2em;
+}
+
+.configuracoes{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.opcoes{
+    background-color: #FFFBFE;
+    width: 100%;
+    height: 320px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.op{
+    background-color: #133f58;
+    width: 75%;
+    margin: 0.8em;
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+.op a{
+    text-align: right;
+    margin-right: 0.4em;
+    margin-top: 0.2em;
+}
+
+.op img{
+    height: 20px;
+    justify-content: flex-end;
+}
+
+
+.op h3{
+    color: #FF5839;
+    font-weight: lighter;
+    justify-content: flex-start;
+}
+
+.opc{
+    background-color: #FF5839;
+    width: 75%;
+    margin: 0.8em;
+    border-radius: 0.8em;
+}
+
+.opc h3{
+    color:#133f58;
+}
+
+.icon{
+    height: 22px;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+/*Fim Perfil de Usúario */
+
+
+/* Página encontre professor */
+.filtros{
+    height: 100px;
+}
+main hr{
+    border-color: #cccfd1;
+}
+.prof{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.prof h2{
+    margin-left: 0.2em;
+    color: black;
+    text-transform: initial;
+    font-weight: lighter;
+}
+.professores h2{
+    padding: 3em 0;
+    text-align: start;
+}
+.perfil_texto{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.perfil_texto img{
+    padding: 1em 0;
+}
+.valor_nacionalidade{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: -2em;
+  
+}
+main div .prof_encontrado{
+    align-items: center;
+    border-radius: 10%;
+}
+main article{
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+    
+}
+main article p{
+    width: 50%;
+    height: 90%;
+    text-align: justify;
+    color: black;
+    text-transform: initial;
+    font-size: 0.6em;
+}
+main article h2{
+    font-size: 1em;
+}
+main article img{
+    width: 2.5em;
+}
+article {
+    display: flex;
+    margin: 1em;
+}
+.botao_vermais{
+    width: 200px;
+    height: 3em;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fim página encontre professor */
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #133f58;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+.containerf{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+footer h3{
+    font-size: 1.1em;
+    text-transform: initial;
+    color: #697076;
+}
+footer h4{
+    font-size: 0.9em;
+    text-transform: initial;
+    color: #697076;
+}
+footer img{
+    width: 2.4em;
+}
+
+
+/*@media perfil usuario*/
+@media(min-width:800px){
+    
+    main{
+        /* background-color: #143F59; */
+        width: 100%;
+        height: 170px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .descricao{
+        background-color:#133f58;
+        height: 180px;
+    }
+    
+    .descricao h1{
+        color: #FF5839;
+        justify-content: center;
+        font-size:1em;
+    }
+    
+    .descricao h2{
+        color: #FF5839;
+        justify-content: center;
+        font-size:1em;
+    
+    }
+    
+    .perfil{
+        margin-bottom: -2em;
+    }
+    .perfil img{
+        width: 18%;
+        height: 125px;
+        margin-bottom: 2em;
+    }
+    
+    .configuracoes img{
+       width: 40px;
+       height:30px;
+      
+       margin-top: -2em;
+    }
+    
+    .configuracoes{
+        justify-content: flex-end;
+        display: flex;
+    
+    }
+    
+    .opcoes{
+        background-color: #FFFBFE;
+        width: 70%;
+        height: 320px;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .op{
+        background-color: #133f58;
+        width: 75%;
+        margin: 0.8em;
+        border-radius: 0.8em;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .op a{
+        text-align: right;
+        margin-right: 0.4em;
+        margin-top: 0.2em;
+    }
+    
+    .op img{
+        height: 20px;
+        justify-content: flex-end;
+    }
+    
+    
+    .op h3{
+        color: #FF5839;
+        font-weight: lighter;
+        justify-content: flex-start;
+    }
+    
+    .opc{
+        background-color: #FF5839;
+        width: 27%;
+        height: 200px;
+        margin: 0.8em;
+        border-radius: 0.8em;
+        position: absolute;
+        right:46px;
+    }
+    
+    .opc h3{
+        color:#133f58;
+        padding-top: 78px;
+    }
+    
+    .icon{
+        height: 22px;
+        margin-left: 0.5em;
+        margin-top: 0.2em;
+    }
+    /*Fim Perfil de Usúario */
+    
+}
+
+
+/*@media perfil usuario*/
+@media(min-width:1366px){
+    
+    main{
+        /* background-color: #143F59; */
+        width: 100%;
+        height: 170px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    
+    
+    .descricao{
+        background-color:#133f58;
+        height: 500px;
+        width: 28%;
+        border-radius:2em ;
+        margin-left: 2em;
+        margin-top: 2.5em;
+        align-items: center;
+
+    }
+    
+    
+    .descricao h1{
+        color: #FF5839;
+        justify-content: center;
+        font-size:1em;
+    }
+    
+    .descricao h2{
+        color: #FF5839;
+        justify-content: center;
+        font-size:1em;
+    
+    }
+    
+    
+    .perfil img{
+        width:31%;
+        height: 124px;
+        margin-top: 6em;
+    }
+    
+    .configuracoes img{
+       width: 40px;
+       height:47px;
+       margin-bottom: 2em;
+    }
+    
+    .configuracoes{
+        justify-content: center;
+        display: flex;
+        margin-top: 3em;
+    }
+    
+    .opcoes{
+        background-color: #FFFBFE;
+        width: 55%;
+        height: 220px;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-left: 35em;
+       margin-top: -23em;
+    }
+    
+    .op{
+        background-color: #133f58;
+        width: 75%;
+        margin: 0.8em;
+        border-radius: 0.8em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .op a{
+        text-align: right;
+        margin-right: 0.4em;
+        margin-top: 0.2em;
+    }
+    
+    .op img{
+        height: 20px;
+        justify-content: flex-end;
+    }
+    
+    
+    .op h3{
+        color: #FF5839;
+        font-weight: lighter;
+        justify-content: flex-start;
+    }
+    
+    .opc{
+        background-color: #FF5839;
+        width: 75%;
+        margin: 0.8em;
+        border-radius: 0.8em;
+        position:inherit;
+        height: 100%;
+       
+    }
+    
+    .opc h3{
+        color:#133f58;
+        padding-top: 0px;
+    }
+    
+    .icon{
+        height: 22px;
+        margin-left: 0.5em;
+        margin-top: 0.2em;
+    }
+    /*Fim Perfil de Usúario */
+    
+    
+   
+}
