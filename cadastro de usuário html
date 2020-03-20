@@ -1,0 +1,112 @@
+<div class="cadastrojp">
+            <h1>Cadastre-se</h1>
+        </div>
+        <form action="" method="get" class="form_cadastro">
+            <div class="campojp">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nomeusuario" id="nome">
+            </div>
+            <div class="campojp">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenomeusuario" id="sobrenome">
+            </div>
+            <div class="campojp">
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data" id="data" min="1988-01-01" max="2020-03-05">
+            </div>
+            <div class="campojp">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campojp">
+                <label for="email">Repita seu E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campojp">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone">
+            </div>
+            <div class="campojp">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campojp">
+                <label for="confirma_senha">Confirme a senha</label>
+                <input type="password" name="confirma_senha" id="confirma_senha">
+            </div>
+        </form>
+
+        <div class="campo_termos">
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">Li e aceito os termos de uso do site</label>
+            <input type="checkbox" name="naosouumrobo" id="robo">
+            <label for="robo">Não sou um robô!</label>
+        </div>
+        <div class="btnjp">
+            <button type="submit" class="btn">Finalizar cadastro</button>
+        </div>
+        
+        ----------------------------------------------------------------------------------------------------------
+        CSS
+        
+        .cadastrojp{
+    width: 70%;
+    height: 40px;
+    
+    margin-top: 70px;
+    margin-left: 60px;
+    align-items: center;
+    border-radius: 15px;
+    
+
+}
+.cadastrojp h1{
+    
+    text-align: center;
+    font-size: 20px;
+    color: #FF5839;
+}
+.campojp{
+    
+    padding: 0.3em;
+    display: flex;
+    justify-content: space-between;
+}
+.form_cadastro{
+    
+    padding: 0.5em;
+    
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #FF5839;
+    background-color: #133f58;
+    width: 50%;
+}
+.campo_termos{
+    margin-top: 20px;
+    height: 20px;
+    justify-content: unset;
+    align-items: center;
+    display: block;
+    
+    border-radius: 15px;
+    font-size: 10px;
+    
+}
+.btnjp{
+    
+    border-radius: 8px;
+    color: black;
+    margin-top: 30px;
+    align-items: center;
+    padding: 0.3em 3em;
+    
+}
+        
+   
