@@ -33,60 +33,54 @@
         </div>
     </header>
     <main>
-        <div class="descricao">
-            <div class="espaco">
-            <div class="perfil">
-                <img src="img/perfil.png" alt="perfil do cadastro do usuario">
-            </div>
-                        <h1>ID: 4598-6259</h1>
-                        <h2>NOME DO USUÁRIO</h2>
-            </div> 
-                    <div class="configuracoes">
-                        <img src="img/icons/configuracoes.svg" alt="configuracoes do cadastro do usuario">
-                    </div>
+        <div class="cadastrojp">
+            <h1>Cadastre-se</h1>
         </div>
-        <div class="opcoes">
-            <div class="op">
-                <div class="icon">
-                    <img src="img/icons/book-solid.svg" alt="livro opçoes cadastro de usuario">
-                </div>           
-                <h3>MINHAS AULAS</h3>
-                <a href="#"> <img src="img/icons/angle-double-right-solid.svg" alt="Seta das opçoes "></a>
+        <form action="" method="get" class="form_cadastro">
+            <div class="campojp">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nomeusuario" id="nome">
             </div>
-            <div class="op">
-                <div class="icon">
-                    <img src="img/icons/user-graduate-solid.svg" alt="livro opçoes cadastro de usuario">
-                </div>           
-                <h3>MEUS PROFESSORES</h3>
-                <a href="#"> <img src="img/icons/angle-double-right-solid.svg" alt="Seta das opçoes "></a>
+            <div class="campojp">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenomeusuario" id="sobrenome">
             </div>
-            <div class="op">
-                <div class="icon">
-                    <img src="img/icons/configuracoes.svg" alt="livro opçoes cadastro de usuario">
-                </div>           
-                <h3>ALTERAR INFORMAÇÕES</h3>
-                <a href="#"> <img src="img/icons/angle-double-right-solid.svg" alt="Seta das opçoes "></a>
+            <div class="campojp">
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data" id="data" min="1988-01-01" max="2020-03-05">
             </div>
-            <div class="op">
-                <div class="icon">
-                    <img src="img/icons/heart-solid.svg" alt="livro opçoes cadastro de usuario">
-                </div>           
-                <h3>MEUS FAVORITOS</h3>
-                <a href="#"> <img src="img/icons/angle-double-right-solid.svg" alt="Seta das opçoes "></a>
+            <div class="campojp">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
             </div>
-            <div class="op">
-                <div class="icon">
-                    <img src="img/icons/gift-solid.svg" alt="livro opçoes cadastro de usuario">
-                </div>           
-                <h3>INDICAR UM AMIGO</h3>
-                <a href="#"> <img src="img/icons/angle-double-right-solid.svg" alt="Seta das opçoes "></a>
+            <div class="campojp">
+                <label for="email">Repita seu E-mail</label>
+                <input type="email" name="email" id="email">
             </div>
-            <div class="opc">
-                <h3>TORNE-SE UM PROFESSOR</h3>
+            <div class="campojp">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone">
             </div>
+            <div class="campojp">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campojp">
+                <label for="confirma_senha">Confirme a senha</label>
+                <input type="password" name="confirma_senha" id="confirma_senha">
+            </div>
+        </form>
+
+        <div class="campo_termos">
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">Li e aceito os termos de uso do site</label>
+            <input type="checkbox" name="naosouumrobo" id="robo">
+            <label for="robo">Não sou um robô!</label>
+        </div>
+        <div class="btnjp">
+            <button type="submit" class="btn">Finalizar cadastro</button>
         </div>
     </main>
-    <hr>
     <footer class="containerf">
         <div>
             <h3>Central de ajuda</h3>
