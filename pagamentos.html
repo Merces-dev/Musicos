@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Central de Ajuda</title>
+    <title>Pagamentos</title>
 </head>
 
 <body>
@@ -33,9 +33,91 @@
         </div>
     </header>
     <main>
+        <div class="escolha_aula">
+            <h5>Escolha sua aula</h5>
+            <P>Planos/Pacotes</P>
+        </div>
 
+        <div class="container_aulas">
+            <img src="img/aula1.jpg" alt="pessoa tocando um piano">
+            <img src="img/aula2.jpg" alt="homem tocando flauta">
+            <img src="img/aula3.jpg" alt="pessoas tocando violino">
+            <img src="img/aula4.jpg" alt="homem tocando piano">
+            <!-- <img src="img/aula5.jpg" alt="professor ensinando criança a tocar violino">
+            <img src="img/aula6.jpg" alt="professor ensinando criança a tocar violao"> -->
+
+        </div>
+
+        <div class="disponiveis">
+            <h5>Data e Horário disponíveis (Somente aulas privadas)</h5>
+
+        </div>
+
+        <div class="campo">
+            <div class="campo-calendario">
+                <p>Calendário</p>
+                <img src="img/icons/calendario.png" alt="calendario">
+            </div>
+            <div>
+                <label for="hora">Horários</label>
+                <select name="hora" id="hora">
+                    <option value="0"></option>
+                    <option value="9">9:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="pagamento">
+            <h5>Pagamento</h5>
+        </div>
+
+        <div class="tudo">
+            
+        <div class="pagamentopai">
+            <div class="pagamentofilho1">
+               
+                <div class="credito">
+                    <input type="checkbox" />Cartão de credito
+                </div>
+
+                <div class="outros">
+                    <input type="checkbox" />Outro
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cartao">
+            <div class="caixa_cartao">
+                <label for="numero">Número do cartão</label>
+                <input type="text" name="numero" id="numero">
+            </div>
+
+            <div class="caixa_cartao">
+                <label for="codigo">Código de Segurança</label>
+                <input type="text" name="codigo" id="codigo">
+            </div>
+
+            <div class="caixa_cartao">
+                <label for="cpf">CPF do titular do cartão</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+        </div>
+
+    </div>
+
+
+        <div class="botao_reserva">
+            <button type="submit" class="btn gradient">Reservar</button>
+        </div>
     </main>
-    <hr>
     <footer class="containerf">
         <div>
             <h3>Central de ajuda</h3>

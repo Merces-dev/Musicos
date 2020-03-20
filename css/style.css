@@ -321,6 +321,217 @@ article div li{
 }
 
 /* Fim Central de Ajuda */
+/* pagina pagamentos */
+.escolha_aula{
+    width: 85%;
+    height: 1.4em;
+    background-color:#143F59;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 2.3em;
+
+}
+.escolha_aula h5 {
+    color: #FF5839;
+    margin-left: 0.5em;
+}   
+
+.escolha_aula p{
+    color: #FF5839;
+    font-size: 15px;
+    padding: 15px 50px;
+    font-weight: bold;
+}
+.container_aulas{
+    width: 85%;
+    height: 6.5em;
+    background-color: #143F59;
+    border-radius: 20px;
+    margin: 0 auto; 
+    margin-top: 3em;
+}
+.container_aulas img{
+    width: 5em;
+    height: 3.6em;
+    margin-top: 1.5em;
+    margin-left: 0.3em;
+    
+}
+.disponiveis{
+    width: 85%;
+    height: 1.4em;
+    background-color:#143F59;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 2.3em;
+    font-size: 0.9em;
+}
+.disponiveis h5{
+    color: #FF5839;
+}
+
+.campo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    
+}
+.campo p{
+    color: #FF5839;
+    font-size: 15px;
+    font-weight: bold;
+    
+} 
+.campo label{
+    color: #FF5839;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 0.2em;
+}
+.campo select{
+    background-color: #143F59;
+    width: 10em;
+    height: 2em;
+    border-radius: 10px;
+    margin-top: 2.8em;
+
+}
+.campo-calendario{
+    width: 45%;
+}
+.campo img{
+    width: 40%;
+}
+.pagamentopai{
+    font-weight: bold;
+    width: 19%;
+    height: 6em;    
+}
+.pagamentofilho1{
+    color: #FF5839;
+    padding: 2em 2em;
+   
+}
+.outros{
+    color: #FF5839;
+    margin-top: 3em;
+}
+.pagamento{
+    width: 85%;
+    height: 1.4em;
+    background-color:#143F59;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.pagamento h5{
+    color: #FF5839;
+}
+.cartao{
+    width: 16em;
+    height: 10em;
+    background-color: #143F59;
+    border-radius: 10px;  
+    margin-top: 3em;
+}
+.caixa_cartao{
+    margin-top: 0.5em;
+}
+.caixa_cartao label{
+    color: #FF5839;
+  
+}
+.caixa_cartao input{
+    border-radius: 10px;
+    border: none;
+}
+.tudo{
+    display: flex;
+    justify-content: space-around;
+}
+.botao_reserva{
+    padding: 2em 4em;
+}
+.botao_reserva button{
+    width: 9em;
+    height: 3em;
+    background-color: #FF5839;
+    color: #143F59;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* fim pagamentos */
+
+
+/* cadastro */
+.caixa_telefone ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;  
+    margin-top: 1.7em;  
+
+
+}
+.caixa_telefone a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF5839;
+}
+hr{
+    margin-top: 1.4em;
+    color: #143F59;
+}
+.login_pai{
+    width: 100%;
+    height: 17em;
+}
+.login_filho1 input{
+    width: 75%;
+    height: 3em;
+    background-color:#143F59;
+    border-radius: 7px;
+    border: none;
+    margin-top: 3em;
+}
+.login_filho1 label{
+    color: #FF5839;
+    font-weight: bold;
+}
+.conectado_pai{
+    color: #FF5839;
+    font-weight: bold ;
+}
+.logar_face{
+    width: 100%;
+    height: 15em;
+}
+.credito{
+    color: #FF5839;
+}
+.logar_face h5{
+    font-size: 0.8em;
+    color: #143f59;
+    margin-top: 2em;
+}
+.logarfilho button{
+    width: 75%;
+    height: 3em;
+    background-color: #FF5839;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3em;
+}
+.registre-se h5{
+    color: #143F59;
+}
+.registre-se a{
+    color: #FF5839;
+}
+/* fim cadastro */
 /* começo footer */
 
 footer{
@@ -353,19 +564,24 @@ footer img{
 /* fim */
 @media(min-width: 799px){
     header{
-        width: 800px;
+        width: 100%;
     }
     #menu{
         display: flex;
         flex-direction: row;
-        width: 100%
+        width: 100%;
+        -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
     }
     #menu ul{
         height: 50px;
+        
     }
     #menu ul li {
-         display: inline; }
+        display: inline; }
     #menu ul li a {
+        color: #FF5839;
         font-size: 1.4em;
         padding: 2px 22px;
         display: inline;
@@ -377,79 +593,216 @@ footer img{
     .menuweb{
         display: flex;
         background-color: #133f58;
-        width: 800px;
+        width: 100%;
         justify-content: center;
         padding: 0.5em ;
     }
     .laranja h1{
-    width: 70%;
-    padding: 0 2em;
-    margin-top: 380px;
-    font-size: 2.6em;
+        width: 70%;
+        padding: 0 2em;
+        margin-top: 380px;
+        font-size: 2.6em;
 }
     .radius h4{
-    font-size: 3em;
+        font-size: 3em;
 
 }
     .laranja h2{
-    font-size: 2.4em;
-    padding: 0 0 1em 0;
-    font-weight: normal;
+        font-size: 2.4em;
+        padding: 0 0 1em 0;
+        font-weight: normal;
 }
     article div p {
-    font-size: 1.5em;
+        font-size: 1.5em;
 }
     .box{
-    height: 500px;
+        height: auto;
     
 }
-
     .botao_menu{
-    display: none;
+        display: none;
 }
     footer h3{
-    font-size: 2em;
+        font-size: 2em;
 }
     footer h4{
-    font-size: 1.4em;
+        font-size: 1.4em;
 }
     footer img{
-    width: 3em;
+        width: 3em;
 }
     footer{
-    width: 800px;
+        width: 100%;
+        -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
 }
+    main{
+        width: 100%;
+    }
+        /* pagina login */
+        .logarfilho{
+            width: 45%;
+            height: 3em;
+            margin: auto;
+            }
+            .login_filho1{
+            font-size: 1.5em;
+            }
+            .logar_face h5{
+            font-size: 1.0em;
+            color: #143f59;
+            margin-top: 3.3em;
+            }
+            .registre-se h5{
+            color: #143F59;
+            font-size: large;
+            }
+            .conectado_pai{
+                font-size: 1.2em;
+            }
+            /*fim pagina login*/
+        
+        
+           /* pagina pagamentos*/
+        
+            .escolha_aula{
+                width: 85%;
+                height: 2.3em;
+            }
+            .escolha_aula h5{
+                font-size: 1.3em;
+            }
+            .escolha_aula p{
+                font-size: 1.2em;
+            }
+            .container_aulas{
+             width: 85%;
+            height: 7.0em;
+            display: flex;
+            justify-content: space-evenly;
+            }
+            .container_aulas img{
+            width: 7em;
+            height: 4.5em;
+            margin-top: 1.3em;
+            margin-left: 0.3em;
+            }
+            .disponiveis{
+                height: 2.4em;
+            }
+            .disponiveis h5{
+                font-size: 1.3em;
+            }
+            .campo-calendario p{
+                font-size: 1.4em;
+            }
+           .campo label{
+               font-size: 1.4em;
+           }
+           .campo-calendario img{
+               max-width: 20%;
+           }
+           .campo{
+               margin-right: 5em;
+           }
+           .campo select{
+            width: 16em;
+            height: 3.1em;
+           }
+           .pagamento{
+            height:2.4em;
+           }
+           .pagamento h5{
+               font-size: 1.3em;
+           }
+           .pagamentofilho1{
+               width: 6em;
+           }
+           .credito{
+               font-size: 1.3em;
+               color: #FF5839;
+           }
+           .outros{
+               font-size: 1.3em;
+           }
+           .cartao{
+            width: 22em;
+            height: 13em;
+            margin-top: 2em;
+           }
+           .caixa_cartao label{
+               font-size: 1.3em;
+               font-weight: bold;
+           }
+           .caixa_cartao input{
+               width: 60%;
+               height: 2.0em;
+           }
+           .botao_reserva button{
+            width: 14em;
+            height: 3.5em
+           }
+        /* fim pagina pagamento */
+
 }
 @media(min-width: 1365px){
     header{
-        width: 1366px;
+        width: 100%;
+        height: 11em;
+        align-items: center;
+    }
+    .logo{
+        width: 26em;
     }
     #menu{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        height: 80px;
+        margin-top: 70px;
+        -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
     }
     #menu ul{
         height: 50px;
+        
     }
     #menu ul li {
          display: inline; }
     #menu ul li a {
-        font-size: 1.5em;
+        font-size: 3em;
         margin-right: 10px;
-        padding: 2px 65px;
+        padding: 2px 190px;
         display: inline;
+    }
+    .prof_encontrado{
+        width: 900px;
+    }
+    main article img{
+        width: 7em;
+        padding: 0 5em;
+    }
+    .prof h2{
+        font-size: 3em;
     }
     .container{
         display: flex;
         flex-direction: column;
     }
     .laranja h1{
-        font-size: 3em;
-        padding: 1 0.9em;
+        font-size: 5em;
+        text-align: center;
+        margin-top: 10em;
+    }
+    .laranja h2{
+        font-size: 4em;
+        text-align: center;
     }
     article div p {
-    font-size: 1.5em;
-    padding: 1.4em 0;
+        font-size: 2.2em;
+         padding: 1.4em 0;
     }  
     .botao_menu{
         display: none;
@@ -462,10 +815,13 @@ footer img{
         padding: 0.5em ;
     }
     main{
-        width: 1366px;
+        width: 100%;
     }
     footer{
-        width: 1366px;
+        width: 100%;
+        -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
     }
     footer h3{
         font-size: 2.4em;
@@ -476,4 +832,118 @@ footer img{
     footer img{
         width: 4em;
     }
+    .box{
+        width: auto;
+        height: auto;
+    }
+      /*pagina cadastro*/
+    .caixa_telefone {
+        font-size: 1.3em;
+    }
+    .login_filho1{
+        font-size: 1.5em;
+    }
+    .login_filho1 input{
+     width: 50%;
+    height: 4em;
+
+    }
+    .conectado_pai{
+        margin-top: 3em;
+    }
+    .btngradient{
+        font-size: 1.1em;
+    }
+
+    .logar_face h5{
+        font-size: 1.3em;
+        color: #143f59;
+        margin-top: 3em;
+    }
+    .registre-se h5{
+        margin-top: 4em;
+        font-size: 1.5em;
+    }
+/*fim pagina cadastro*/
+
+/* pagina pagamentos */
+.escolha_aula{
+ width: 85%;
+ height: 2.6em;
+    
+}
+.escolha_aula h5{
+    font-size: 1.7em;
+}
+.escolha_aula p{
+    font-size: 1.5em;
+}
+.container_aulas{
+ width: 85%;
+height: 9.0em;
+}
+.container_aulas img{
+width: 12em;
+height: 6.6em;
+margin-top: 1.3em;
+margin-left: 0.3em;
+}
+.disponiveis{
+    height: 2.8em;
+}
+.disponiveis h5{
+    font-size: 1.7em;
+}
+.campo-calendario p{
+    font-size: 1.7em;
+}
+.campo label{
+   font-size: 1.7em;
+}
+.campo{
+   margin-right: 10em;
+}
+.campo select{
+width: 20em;
+height: 3.4em;
+}
+.campo-calendario img{
+    max-width: 28%;
+}
+.pagamento{
+height:2.6em;
+}
+.pagamento h5{
+   font-size: 1.7em;
+}
+.pagamentofilho1{
+   width: 6em;
+}
+.credito{
+   font-size: 1.5em;
+   color: #FF5839;
+}
+.outros{
+   font-size: 1.5em;
+}
+.cartao{
+width: 29em;
+height: 18em;
+margin-top: 3em;
+}
+.caixa_cartao{
+    margin-top: 1.4em;
+}
+.caixa_cartao label{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+.caixa_cartao input{
+   width: 68%;
+   height: 2.5em;
+}
+.botao_reserva button{
+width: 19em;
+height: 3.9em
+}
     }

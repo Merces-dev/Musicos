@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Central de Ajuda</title>
+    <title> Login </title>
 </head>
 
 <body>
@@ -33,9 +33,50 @@
         </div>
     </header>
     <main>
+        <div class="caixa_telefone">
+            <ul>
+                <li><a href="#">E-mail</a></li>
+                <li><a href="#">Telefone</a></li>
+            </ul>
+            <hr>
+        </div>
+
+        <div class="login_pai">
+            <div class="login_filho1">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="text">
+            </div>
+            <div class="login_filho1">
+                <label for="nome">E-mail</label>
+                <input type="text" name="email" id="text">
+            </div>
+            <div class="login_filho1">
+                <label for="nome">Senha</label>
+                <input type="password" name="Senha" id="senha">
+            </div>
+
+        </div>
+
+        <div class="conectado_pai">
+            <input type="checkbox" />Continuar Conectado
+        </div>
+
+        <div class="logar_face">
+            <div class="logarfilho">
+                <button type="submit" class="btngradient">Logar-se</button>
+            </div>
+            <h5 >Ou</h5>
+            <div class="logarfilho">
+                <button type="submit" class="btngradient">Facebook</button>
+            </div>
+        </div>
+
+        <div class="registre-se">
+            <h5>Ainda não tem Conta? <a href="cadastrousuario.html">Registre-se</a></h5>
+
+        </div>
 
     </main>
-    <hr>
     <footer class="containerf">
         <div>
             <h3>Central de ajuda</h3>
@@ -43,11 +84,10 @@
             <h4>Telefone: 6548-95862</h4>
         </div>
         <div>
-            <img src="img/redes_sociais/facebook.svg" alt="facebook">
-            <img src="img/redes_sociais/instagram.svg" alt="instagram">
-            <img src="img/redes_sociais/twitter.svg" alt="twitter">
-            <img src="img/redes_sociais/linkedin.svg" alt="linkedin">
-
+            <a href="facebook.com"><img src="img/redes_sociais/facebook.svg" alt="facebook"></a></a>           
+             <a href="instagram.com"><img src="img/redes_sociais/instagram.svg" alt="instagram"></a>
+            <a href="twitter.com"><img src="img/redes_sociais/twitter.svg" alt="twitter"></a></a>            
+            <a href="linkedin.com"><img src="img/redes_sociais/linkedin.svg" alt="linkedin"></a></a>
         </div>
     </footer>
     <script>
